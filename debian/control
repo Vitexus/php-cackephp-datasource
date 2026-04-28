@@ -10,7 +10,7 @@ Rules-Requires-Root: no
 
 Package: php-cakephp-datasource
 Architecture: all
-Depends: ${misc:Depends}, php-cli | php, composer, php-cakephp-core, php-psr-simplecache
+Depends: ${misc:Depends}, php-cli | php, composer, php-cakephp-core, php-psr-simple-cache
 Description: CakePHP Datasource - connection and entity traits
  Provides connection managing and traits for Entities and Queries
  that can be reused for different datastores in the CakePHP framework.
