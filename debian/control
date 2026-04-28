@@ -1,0 +1,16 @@
+Source: php-cakephp-datasource
+Section: php
+Priority: optional
+Maintainer: CyberVitexus <cybervitexus@gmail.com>
+Build-Depends: debhelper-compat (= 13), jq
+Standards-Version: 4.6.2
+Homepage: https://cakephp.org
+Vcs-Git: https://github.com/Vitexus/php-cackephp-datasource.git
+Rules-Requires-Root: no
+
+Package: php-cakephp-datasource
+Architecture: all
+Depends: ${misc:Depends}, php-cli | php, composer, php-cakephp-core, php-psr-simplecache
+Description: CakePHP Datasource - connection and entity traits
+ Provides connection managing and traits for Entities and Queries
+ that can be reused for different datastores in the CakePHP framework.
